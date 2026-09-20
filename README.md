@@ -26,7 +26,7 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 
 Rooms are organized by TryHackMe's own Path > Module structure, matching how they appear in my TryHackMe account:
 
-\`\`\`
+```
 tryhackme-writeups/
 ├── README.md
 ├── Pre-Security/
@@ -35,7 +35,7 @@ tryhackme-writeups/
 ├── SOC-Level-1/
 │   └── ...
 └── Other/              ← standalone rooms / CTF events not part of a Path
-\`\`\`
+```
 
 The table above surfaces the skills each room covers, so the content is easy to scan even without knowing TryHackMe's internal structure.
 
