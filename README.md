@@ -8,6 +8,7 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 
 | Room | Skills Demonstrated | Link |
 |---|---|---|
+| [Defensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) | Alert triage, incident investigation, firewall-based containment | [Link](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) |
 | [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Directory enumeration (DIRB), access control testing | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
 
 ---
@@ -16,6 +17,7 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 
 | Room | Path | Module | Difficulty | Skills | Link |
 |---|---|---|---|---|---|
+| [Defensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Alert triage, log investigation, incident containment, firewall rules | [Link](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) |
 | [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Web recon, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
 
 *This table grows as I complete more rooms.*
@@ -31,7 +33,8 @@ tryhackme-writeups/
 ├── README.md
 ├── Pre-Security/
 │   └── Introduction-to-Cyber-Security/
-│       └── Offensive-Security-Intro/
+│       ├── Offensive-Security-Intro/
+│       └── Defensive-Security-Intro/
 ├── SOC-Level-1/
 │   └── ...
 └── Other/              ← standalone rooms / CTF events not part of a Path
