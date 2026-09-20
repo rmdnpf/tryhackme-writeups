@@ -1,42 +1,55 @@
 # TryHackMe Writeups
 
-My notes and documentation from TryHackMe rooms I've worked through — the steps I took, tools I used, and what I learned along the way.
-
-This repo is part of my ongoing journey learning cybersecurity.
+Documented walkthroughs from TryHackMe rooms I've completed, showing the tools, techniques, and problem-solving approach I used for each.
 
 ---
 
-## 📋 Writeups
+## ⭐ Highlighted Writeups
 
-| Room | Category | Difficulty | Link |
-|---|---|---|---|
-| _(none yet)_ | | | |
+*(Add your 2-3 strongest writeups here once available — pick ones that best show your skills)*
 
-*This table will grow as I complete more rooms.*
+| Room | Skills Demonstrated | Link |
+|---|---|---|
+| _(none yet)_ | | |
+
+---
+
+## 📋 All Writeups
+
+| Room | Path | Module | Difficulty | Skills | Link |
+|---|---|---|---|---|---|
+| _(none yet)_ | | | | | |
+
+*This table grows as I complete more rooms.*
 
 ---
 
 ## 🗂️ Repo Structure
 
+Rooms are organized by TryHackMe's own Path > Module structure, matching how they appear in my TryHackMe account:
+
 ```
 tryhackme-writeups/
 ├── README.md
-├── blue-team/
-├── red-team/
-└── general/
+├── SOC-Level-1/
+│   ├── Cyber-Threat-Intel/
+│   │   └── room-name/
+│   └── Security-Solutions/
+│       └── room-name/
+├── Pre-Security/
+│   └── ...
+└── Other/              ← standalone rooms / CTF events not part of a Path
 ```
 
-- `blue-team/` — rooms related to SOC, log analysis, detection, incident response
-- `red-team/` — rooms related to exploitation, privilege escalation, web attacks
-- `general/` — rooms that don't fit a specific category yet, or fundamentals
+The table above surfaces the skills each room covers, so the content is easy to scan even without knowing TryHackMe's internal structure.
 
 ---
 
 ## ⚠️ Note
 
-- Flags are censored in accordance with TryHackMe's policy — these writeups focus on methodology and reasoning, not raw answers
+- Flags are censored in accordance with TryHackMe's policy — these writeups focus on methodology, tools, and outcomes, not raw answers
 - All activity was performed in TryHackMe's official lab environment for educational purposes
 
 ---
 
-*This repo is updated as I progress in my learning.*
+*Updated as I progress in my cybersecurity learning journey.*
