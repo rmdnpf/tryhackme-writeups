@@ -6,11 +6,9 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 
 ## ⭐ Highlighted Writeups
 
-*(Add your 2-3 strongest writeups here once available — pick ones that best show your skills)*
-
 | Room | Skills Demonstrated | Link |
 |---|---|---|
-| _(none yet)_ | | |
+| [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Directory enumeration (DIRB), access control testing | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
 
 ---
 
@@ -18,7 +16,7 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 
 | Room | Path | Module | Difficulty | Skills | Link |
 |---|---|---|---|---|---|
-| _(none yet)_ | | | | | |
+| [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Web recon, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
 
 *This table grows as I complete more rooms.*
 
@@ -31,12 +29,10 @@ Rooms are organized by TryHackMe's own Path > Module structure, matching how the
 \`\`\`
 tryhackme-writeups/
 ├── README.md
-├── SOC-Level-1/
-│   ├── Cyber-Threat-Intel/
-│   │   └── room-name/
-│   └── Security-Solutions/
-│       └── room-name/
 ├── Pre-Security/
+│   └── Introduction-to-Cyber-Security/
+│       └── Offensive-Security-Intro/
+├── SOC-Level-1/
 │   └── ...
 └── Other/              ← standalone rooms / CTF events not part of a Path
 \`\`\`
