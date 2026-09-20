@@ -1,6 +1,6 @@
 # TryHackMe Writeups
 
-Documented walkthroughs from TryHackMe rooms I've completed, showing the tools, techniques, and problem-solving approach I used for each.
+Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecurity hands-on — the tools I used, the approach I took, and what I learned from each room.
 
 ---
 
@@ -28,7 +28,7 @@ Documented walkthroughs from TryHackMe rooms I've completed, showing the tools, 
 
 Rooms are organized by TryHackMe's own Path > Module structure, matching how they appear in my TryHackMe account:
 
-```
+\`\`\`
 tryhackme-writeups/
 ├── README.md
 ├── SOC-Level-1/
@@ -39,7 +39,7 @@ tryhackme-writeups/
 ├── Pre-Security/
 │   └── ...
 └── Other/              ← standalone rooms / CTF events not part of a Path
-```
+\`\`\`
 
 The table above surfaces the skills each room covers, so the content is easy to scan even without knowing TryHackMe's internal structure.
 
@@ -48,7 +48,7 @@ The table above surfaces the skills each room covers, so the content is easy to 
 ## ⚠️ Note
 
 - Flags are censored in accordance with TryHackMe's policy — these writeups focus on methodology, tools, and outcomes, not raw answers
-- All activity was performed in TryHackMe's official lab environment for educational purposes
+- All activity was performed in TryHackMe's official lab environment as part of my hands-on cybersecurity practice
 
 ---
 
