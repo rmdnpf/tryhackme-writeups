@@ -8,8 +8,9 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 
 | Room | Skills Demonstrated | Link |
 |---|---|---|
-| [Defensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) | Alert triage, incident investigation, firewall-based containment | [Link](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) |
-| [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Directory enumeration (DIRB), access control testing | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
+| [Client-Server Basics](./Pre-Security/Computer-Fundamentals/Client-Server-Basics/) | Client-server communication, HTTP fundamentals, GET requests, network traffic inspection, browser Developer Tools | [Link](./Pre-Security/Computer-Fundamentals/Client-Server-Basics/) |
+| [Defensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) | Alert triage, log investigation, incident containment, firewall rules | [Link](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) |
+| [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Web reconnaissance, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
 
 ---
 
@@ -17,37 +18,66 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 
 | Room | Path | Module | Difficulty | Skills | Link |
 |---|---|---|---|---|---|
+| [Client-Server Basics](./Pre-Security/Computer-Fundamentals/Client-Server-Basics/) | Pre Security | Computer Fundamentals | Easy | Client-server communication, HTTP fundamentals, GET requests, network traffic inspection, browser Developer Tools | [Link](./Pre-Security/Computer-Fundamentals/Client-Server-Basics/) |
 | [Defensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Alert triage, log investigation, incident containment, firewall rules | [Link](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) |
-| [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Web recon, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
-
-*This table grows as I complete more rooms.*
+| [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Web reconnaissance, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
 
 ---
 
 ## 🗂️ Repo Structure
 
-Rooms are organized by TryHackMe's own Path > Module structure, matching how they appear in my TryHackMe account:
+Rooms are organized by TryHackMe's Path > Module structure, matching how they appear in my TryHackMe learning path:
 
 ```
 tryhackme-writeups/
 ├── README.md
+│
 ├── Pre-Security/
+│   ├── Computer-Fundamentals/
+│   │   └── Client-Server-Basics/
+│   │       └── README.md
+│   │
 │   └── Introduction-to-Cyber-Security/
-│       ├── Offensive-Security-Intro/
-│       └── Defensive-Security-Intro/
+│       ├── Defensive-Security-Intro/
+│       │   └── README.md
+│       └── Offensive-Security-Intro/
+│           └── README.md
+│
 ├── SOC-Level-1/
 │   └── ...
-└── Other/              ← standalone rooms / CTF events not part of a Path
+│
+└── Other/
+    └── ...
 ```
 
-The table above surfaces the skills each room covers, so the content is easy to scan even without knowing TryHackMe's internal structure.
+The repository will grow as I complete more rooms. Each writeup focuses on the concepts, methodology, tools, and practical skills learned during the room.
+
+---
+
+## 🛠️ Skills Covered
+
+Current writeups cover:
+
+- Client-server communication
+- HTTP fundamentals
+- HTTP GET requests and responses
+- Network traffic inspection
+- Browser Developer Tools
+- Web reconnaissance
+- Directory enumeration
+- Access control
+- Alert triage
+- Log investigation
+- Incident containment
+- Firewall rules
 
 ---
 
 ## ⚠️ Note
 
-- Flags are censored in accordance with TryHackMe's policy — these writeups focus on methodology, tools, and outcomes, not raw answers
-- All activity was performed in TryHackMe's official lab environment as part of my hands-on cybersecurity practice
+- Flags are censored in accordance with TryHackMe's policy.
+- Writeups focus on methodology, tools, observations, and learning outcomes rather than raw answers.
+- All activity was performed in TryHackMe's official lab environment as part of my hands-on cybersecurity practice.
 
 ---
 
