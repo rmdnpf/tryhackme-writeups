@@ -9,6 +9,7 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 | Room | Skills Demonstrated | Link |
 |---|---|---|
 | [Client-Server Basics](./Pre-Security/Computer-Fundamentals/Client-Server-Basics/) | Client-server communication, HTTP fundamentals, GET requests, network traffic inspection, browser Developer Tools | [Link](./Pre-Security/Computer-Fundamentals/Client-Server-Basics/) |
+| [Virtualisation Basics](./Pre-Security/Computer-Fundamentals/Virtualisation-Basics/) | VM management, VM recovery, resource allocation, hypervisor monitoring, hardware utilization | [Link](./Pre-Security/Computer-Fundamentals/Virtualisation-Basics/) |
 | [Defensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) | Alert triage, log investigation, incident containment, firewall rules | [Link](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) |
 | [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Web reconnaissance, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
 
@@ -19,6 +20,7 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 | Room | Path | Module | Difficulty | Skills | Link |
 |---|---|---|---|---|---|
 | [Client-Server Basics](./Pre-Security/Computer-Fundamentals/Client-Server-Basics/) | Pre Security | Computer Fundamentals | Easy | Client-server communication, HTTP fundamentals, GET requests, network traffic inspection, browser Developer Tools | [Link](./Pre-Security/Computer-Fundamentals/Client-Server-Basics/) |
+| [Virtualisation Basics](./Pre-Security/Computer-Fundamentals/Virtualisation-Basics/) | Pre Security | Computer Fundamentals | Easy | VM management, VM recovery, resource allocation, hypervisor monitoring, hardware utilization | [Link](./Pre-Security/Computer-Fundamentals/Virtualisation-Basics/) |
 | [Defensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Alert triage, log investigation, incident containment, firewall rules | [Link](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) |
 | [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Web reconnaissance, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
 
@@ -34,7 +36,9 @@ tryhackme-writeups/
 │
 ├── Pre-Security/
 │   ├── Computer-Fundamentals/
-│   │   └── Client-Server-Basics/
+│   │   ├── Client-Server-Basics/
+│   │   │   └── README.md
+│   │   └── Virtualisation-Basics/
 │   │       └── README.md
 │   │
 │   └── Introduction-to-Cyber-Security/
@@ -63,6 +67,11 @@ Current writeups cover:
 - HTTP GET requests and responses
 - Network traffic inspection
 - Browser Developer Tools
+- Virtual machine management
+- VM recovery and provisioning
+- Resource allocation
+- Hypervisor monitoring
+- Hardware utilization analysis
 - Web reconnaissance
 - Directory enumeration
 - Access control
