@@ -1,174 +1,118 @@
-# TryHackMe — Windows Basics
+# Windows Basics
 
-**Path:** Pre-Security  
+**Path:** Pre Security  
 **Module:** Operating Systems Basics  
-**Category:** Operating Systems  
+**Category (skill focus):** Security Fundamentals  
 **Difficulty:** Easy  
 **Room Link:** https://tryhackme.com/room/windowsbasics  
 **Date Completed:** 21 September 2026
 
----
+**Skills Demonstrated:** Windows desktop navigation, system information gathering, Windows filesystem exploration, application management, Task Manager, Windows Security, Microsoft Defender, Windows Defender Firewall
 
-## 🎯 Skills Demonstrated
+## Overview
 
-- Windows desktop navigation
-- Windows user authentication and account types
-- System information gathering
-- Windows File Explorer and file paths
-- Application installation and removal
-- Windows Settings and Control Panel
+A beginner room introducing the fundamentals of the Windows operating system through a hands-on Windows Server 2019 environment.
+
+The room covered Windows desktop navigation, user accounts, system information, file and application management, system monitoring, and built-in security controls. The practical exercises provided an introduction to tools that are relevant to Windows administration and defensive security.
+
+## Tools Used
+
+- TryHackMe virtual lab
+- Windows Server 2019
+- Windows Settings
+- File Explorer
 - Task Manager
 - Windows Security
-- Microsoft Defender custom scanning
+- Microsoft Defender
 - Windows Defender Firewall
-- Inbound and outbound firewall rules
 
----
+## Approach
 
-## 📖 Overview
+1. **Exploring the Windows Workspace (Task 2):** Learned the main components of the Windows graphical interface, including the Desktop, Taskbar, Start Menu, File Explorer, and system settings.
 
-This room provides hands-on experience with the Windows operating system through a Windows Server 2019 environment.
+   I then inspected **About your PC** to gather system information from the lab environment.
 
-The room covers everyday Windows administration tasks as well as basic security controls, including system information, application management, Task Manager, Windows Security, and Windows Defender Firewall.
+   ![Windows System Information](./task-2-system-information.jpg)
 
----
+   The lab environment reported:
+   - Device name: `TryHatMe`
+   - Installed RAM: 4.00 GB
+   - Windows edition: Windows Server 2019 Datacenter
+   - Version: 1809
 
-## 🧩 Tasks
+   I also used **File Explorer** to navigate the `TryHatMe Onboarding` folder and inspect its contents.
 
-### Task 1 — Introduction
+   ![Windows File Explorer](./task-2-file-explorer.jpg)
 
-Introduces the room scenario, learning objectives, and the Windows Server 2019 lab environment.
+   The task demonstrated how Windows paths are structured and how File Explorer can be used to locate and manage files.
 
-**No answer required.**
+   The folder also contained a text file used by the room to provide a flag. The flag is intentionally omitted from this public write-up.
 
----
+2. **Configuring and Securing Windows (Task 3):** Practiced basic Windows administration and security tasks, including application management, system configuration, process monitoring, malware scanning, and firewall inspection.
 
-### Task 2 — Exploring the Windows Workspace
+   Application management covered updating, installing, and uninstalling software through mechanisms such as Windows Update, Microsoft Store, Settings, Control Panel, and application installers.
 
-This task focuses on the Windows graphical interface and basic system navigation.
+   I then opened **Task Manager** to inspect running applications, background processes, resource usage, and logged-in users.
 
-#### Key Concepts
+   ![Windows Task Manager](./task-3-task-manager.jpg)
 
-- **Desktop:** Main workspace for files, folders, and shortcuts.
-- **Taskbar:** Provides access to applications, system tools, settings, and notifications.
-- **Start Menu:** Central location for applications, settings, and power options.
-- **File Explorer:** Used to browse and manage files and folders.
-- **About your PC:** Provides device and Windows system information.
-- **User accounts:** Windows permissions vary between Guest, Standard, and Administrator accounts.
+   Task Manager provides useful visibility into processes, CPU and memory usage, users, process details, and services.
 
-#### Practical Findings
+   Next, I used **Windows Security** to perform a custom scan against the provided TryHackMe folder and reviewed the detected test file.
 
-| Item | Observation |
-|---|---|
-| Device name | `TryHatMe` |
-| Installed RAM | 4.00 GB |
-| Windows version | Windows Server 2019 Datacenter, Version 1809 |
+   ![Windows Security Custom Scan](./task-3-windows-security.jpg)
 
-The task also involved navigating the `TryHatMe Onboarding` folder and reading `Welcome.txt`.
+   This demonstrated how Microsoft Defender can detect a known test file and how Windows Security presents the result to the user.
 
-> Flags are intentionally omitted from this public writeup.
+   Finally, I inspected **Windows Defender Firewall with Advanced Security** and reviewed both inbound and outbound rules.
 
-### Portfolio Evidence
+   ![Windows Defender Firewall](./task-3-firewall.jpg)
 
-![System Information](./task-2-system-information.jpg)
+   The firewall interface provides visibility into network rules and helps control which connections are allowed or blocked.
 
-![File Explorer](./task-2-file-explorer.jpg)
+## Result
 
----
+Successfully completed the room (100%). I gained hands-on familiarity with the Windows desktop environment and several built-in administration and security tools.
 
-### Task 3 — Configuring and Securing Windows
+The practical work included:
 
-This task covers application management, Windows configuration, system monitoring, and built-in security controls.
+- Gathering Windows system information
+- Navigating Windows folders and file paths
+- Managing applications
+- Monitoring processes and logged-in users
+- Running a Microsoft Defender custom scan
+- Inspecting Windows Defender Firewall rules
+- Understanding inbound and outbound network rules
 
-#### Application Management
+## Key Takeaways
 
-Windows applications can be:
+This room established several Windows concepts that are useful for cybersecurity:
 
-- Updated through Windows Update or application-specific mechanisms.
-- Installed through the Microsoft Store.
-- Installed from trusted vendor websites using installers such as `.exe` or `.msi`.
-- Removed through Settings, Control Panel, or application uninstallers.
+- The **Windows Desktop, Taskbar, and Start Menu** provide the primary graphical interface for interacting with the operating system.
+- **File Explorer** is used to navigate and manage files, folders, and Windows paths.
+- **Windows Settings** and **Control Panel** provide different interfaces for system configuration.
+- **Task Manager** provides visibility into processes, users, services, and resource usage.
+- **Windows Security** provides built-in endpoint protection features.
+- **Microsoft Defender** can scan files and identify known malicious or test content.
+- **Windows Defender Firewall** uses rules to control inbound and outbound network traffic.
+- Understanding Windows administration tools is important when investigating activity on Windows endpoints.
 
-#### Windows Settings and Control Panel
+## Cybersecurity Relevance
 
-Windows Settings provides a modern centralized interface for system configuration, while Control Panel provides access to many legacy configuration options.
+Windows is widely used in enterprise environments, making knowledge of its built-in administrative and security tools valuable for defensive security work.
 
-#### Task Manager
+Security analysts may need to investigate:
 
-Task Manager can be used to monitor:
-
-- Running applications and background processes
-- CPU and memory usage
+- Running processes and resource usage
 - Logged-in users
-- Process details and PIDs
-- Windows services
+- Files and directories
+- Endpoint protection status
+- Detected threats
+- Firewall rules
+- Network access and connection behavior
 
-This is useful for basic system monitoring and identifying unusual resource usage or processes.
-
-![Task Manager](./task-3-task-manager.jpg)
-
-#### Windows Security
-
-Windows Security provides several built-in security controls, including:
-
-- Virus & threat protection
-- Firewall & network protection
-- App & browser control
-- Device security
-
-The task included performing a **custom scan** against the provided lab folder and reviewing the detected test file.
-
-![Windows Security](./task-3-windows-security.jpg)
-
-#### Windows Defender Firewall
-
-Windows Defender Firewall controls network traffic based on configured rules.
-
-The advanced firewall interface provides separate rule sets for:
-
-- **Inbound Rules** — control incoming network connections.
-- **Outbound Rules** — control outgoing network connections.
-- Connection Security Rules
-- Monitoring
-
-Understanding these rule categories is important for basic Windows network security and troubleshooting.
-
-![Windows Defender Firewall](./task-3-firewall.jpg)
-
-> The screenshots show the TryHackMe lab environment and are included as portfolio evidence of the practical exercises.
+These concepts provide a foundation for later Blue Team and SOC topics such as Windows endpoint investigation, event and log analysis, malware detection, firewall monitoring, and incident response.
 
 ---
 
-### Task 4 — Conclusion
-
-Reviews the Windows concepts covered throughout the room, including the desktop, File Explorer, Windows Update, Microsoft Store, Settings, Control Panel, Task Manager, Windows Security, and Windows Defender Firewall.
-
-**No answer required.**
-
----
-
-## 🔑 Key Takeaways
-
-- Windows provides multiple interfaces for system administration, including Settings, Control Panel, and built-in management tools.
-- File Explorer and Windows paths are fundamental for navigating and managing files.
-- Task Manager provides useful visibility into processes, users, services, and system resource usage.
-- Windows Security combines several endpoint protection features in one interface.
-- Windows Defender Firewall uses inbound and outbound rules to control network traffic.
-- Understanding these built-in tools provides a foundation for Windows administration and defensive security work.
-
----
-
-## 🛡️ Cybersecurity Relevance
-
-Windows is widely used in enterprise environments, making familiarity with its built-in administrative and security tools valuable for defensive security roles.
-
-For a SOC or Blue Team workflow, tools such as **Task Manager**, **Windows Security**, and **Windows Defender Firewall** provide useful starting points for investigating processes, endpoint protection status, and network access rules.
-
----
-
-## ⚠️ Note
-
-- Flags are intentionally omitted from this public writeup.
-- Device and environment-specific identifiers are not included where unnecessary.
-- This writeup focuses on concepts, observations, methodology, and practical skills rather than publishing raw answers.
-- All activity was performed in the official TryHackMe lab environment.
+*Flags are intentionally omitted from this write-up. Completed as part of my hands-on cybersecurity practice.*
