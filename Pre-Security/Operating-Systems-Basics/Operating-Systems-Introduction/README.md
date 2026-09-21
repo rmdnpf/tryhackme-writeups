@@ -29,7 +29,7 @@ The room also provided hands-on practice in an Ubuntu MATE environment, includin
 
    Started the TryHackMe lab machine and used **System Monitor** to inspect the system information.
 
-   ![Ubuntu MATE System Monitor](./images/task-2-system-monitor.png)
+   ![Ubuntu MATE System Monitor](task-2-system-monitor.png)
 
    The lab environment reported Ubuntu 24.04.1 LTS (64-bit), Linux kernel 6.8.0-1016-aws x86_64, MATE 1.26.2, and 1.9 GiB of memory.
 
@@ -39,19 +39,19 @@ The room also provided hands-on practice in an Ubuntu MATE environment, includin
 
    First, I inspected the **File Systems** section in System Monitor and identified the filesystem type used by `/dev/root`.
 
-   ![Linux File System](./images/task-3-filesystem.png)
+   ![Linux File System](task-3-filesystem.png)
 
    The filesystem was **ext4**.
 
    I then opened `/home` and identified the available user directories.
 
-   ![Linux Home Directory](./images/task-3-home.png)
+   ![Linux Home Directory](task-3-home.png)
 
    The directory contained three user directories: `alex`, `guest`, and `ubuntu`.
 
    Finally, I navigated to `/home/alex/Documents/` and opened `note.txt` to complete the filesystem exploration task.
 
-   ![Filesystem Note File](./images/task-3-note-file.png)
+   ![Filesystem Note File](task-3-note-file.png)
 
    The file contained the room flag. The flag is intentionally omitted from this write-up.
 
