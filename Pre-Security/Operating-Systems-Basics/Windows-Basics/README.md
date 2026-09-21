@@ -32,7 +32,7 @@ The room covered Windows desktop navigation, user accounts, system information, 
 
    I then inspected **About your PC** to gather system information from the lab environment.
 
-   ![Windows System Information](./task-2-system-information.jpg)
+   ![Windows System Information](./task-2-system-information.png)
 
    The lab environment reported:
    - Device name: `TryHatMe`
@@ -42,7 +42,7 @@ The room covered Windows desktop navigation, user accounts, system information, 
 
    I also used **File Explorer** to navigate the `TryHatMe Onboarding` folder and inspect its contents.
 
-   ![Windows File Explorer](./task-2-file-explorer.jpg)
+   ![Windows File Explorer](./task-2-file-explorer.png)
 
    The task demonstrated how Windows paths are structured and how File Explorer can be used to locate and manage files.
 
@@ -54,19 +54,19 @@ The room covered Windows desktop navigation, user accounts, system information, 
 
    I then opened **Task Manager** to inspect running applications, background processes, resource usage, and logged-in users.
 
-   ![Windows Task Manager](./task-3-task-manager.jpg)
+   ![Windows Task Manager](./task-3-task-manager.png)
 
    Task Manager provides useful visibility into processes, CPU and memory usage, users, process details, and services.
 
    Next, I used **Windows Security** to perform a custom scan against the provided TryHackMe folder and reviewed the detected test file.
 
-   ![Windows Security Custom Scan](./task-3-windows-security.jpg)
+   ![Windows Security Custom Scan](./task-3-windows-security.png)
 
    This demonstrated how Microsoft Defender can detect a known test file and how Windows Security presents the result to the user.
 
    Finally, I inspected **Windows Defender Firewall with Advanced Security** and reviewed both inbound and outbound rules.
 
-   ![Windows Defender Firewall](./task-3-firewall.jpg)
+   ![Windows Defender Firewall](./task-3-firewall.png)
 
    The firewall interface provides visibility into network rules and helps control which connections are allowed or blocked.
 
