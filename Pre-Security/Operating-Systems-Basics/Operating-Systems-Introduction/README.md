@@ -51,9 +51,9 @@ The room also provided hands-on practice in an Ubuntu MATE environment, includin
 
    Finally, I navigated to `/home/alex/Documents/` and opened `note.txt` to complete the filesystem exploration task.
 
-   ![Filesystem Flag](./images/task-3-flag.png)
+   ![Filesystem Note File](./images/task-3-note-file.png)
 
-   The file contained the room flag, which is intentionally omitted from this write-up.
+   The file contained the room flag. The flag is intentionally omitted from this write-up.
 
 ## Result
 
