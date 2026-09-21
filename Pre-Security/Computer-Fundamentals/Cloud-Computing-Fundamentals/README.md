@@ -32,7 +32,7 @@ A beginner room introducing the fundamentals of cloud computing and how organiza
 
 3. **Create the Application Interface Machine (Task 3):** Used the **Create Virtual Machine** section to create an instance named `application-interface`. The instance was configured as a `t3.micro` with a **running** status. This increased the environment from 2 to 3 instances and raised the estimated cost to **30 credits/month**.
 
-   ![Application interface instance created and running](./application-interface-created.png)
+   ![Application interface instance created and running](./application-interface-created.png.png)
 
 4. **Create the Study Machines (Task 3):** Created two testing machines for practicing cybersecurity skills:
    - `study-machine-1` → `m5.large` → running → **70 credits/month**
