@@ -12,7 +12,8 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 | [Cloud Computing Fundamentals](./Pre-Security/Computer-Fundamentals/Cloud-Computing-Fundamentals/) | Cloud resource management, EC2 instance deployment, regions, VM lifecycle management, cost optimization | [Link](./Pre-Security/Computer-Fundamentals/Cloud-Computing-Fundamentals/) |
 | [Virtualisation Basics](./Pre-Security/Computer-Fundamentals/Virtualisation-Basics/) | VM management, VM recovery, resource allocation, hypervisor monitoring, hardware utilization | [Link](./Pre-Security/Computer-Fundamentals/Virtualisation-Basics/) |
 | [Defensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) | Alert triage, log investigation, incident containment, firewall rules | [Link](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) |
-| [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Web reconnaissance, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |\n| [Operating Systems: Introduction](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) | OS fundamentals, Linux system information, filesystem exploration, GUI/CLI concepts | [Link](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) |
+| [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Web reconnaissance, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
+| [Operating Systems: Introduction](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) | OS fundamentals, Linux system information, filesystem exploration, GUI/CLI concepts | [Link](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) |
 
 ---
 
@@ -24,7 +25,8 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 | [Cloud Computing Fundamentals](./Pre-Security/Computer-Fundamentals/Cloud-Computing-Fundamentals/) | Pre Security | Computer Fundamentals | Easy | Cloud resource management, EC2 instance deployment, regions, VM lifecycle management, cost optimization | [Link](./Pre-Security/Computer-Fundamentals/Cloud-Computing-Fundamentals/) |
 | [Virtualisation Basics](./Pre-Security/Computer-Fundamentals/Virtualisation-Basics/) | Pre Security | Computer Fundamentals | Easy | VM management, VM recovery, resource allocation, hypervisor monitoring, hardware utilization | [Link](./Pre-Security/Computer-Fundamentals/Virtualisation-Basics/) |
 | [Defensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Alert triage, log investigation, incident containment, firewall rules | [Link](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) |
-| [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Web reconnaissance, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |\n| [Operating Systems: Introduction](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) | Pre Security | Operating Systems Basics | Easy | OS fundamentals, Linux system information, filesystem exploration, GUI/CLI concepts | [Link](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) |
+| [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Web reconnaissance, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
+| [Operating Systems: Introduction](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) | Pre Security | Operating Systems Basics | Easy | OS fundamentals, Linux system information, filesystem exploration, GUI/CLI concepts | [Link](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) |
 
 ---
 
@@ -45,11 +47,19 @@ tryhackme-writeups/
 │   │   └── Cloud-Computing-Fundamentals/
 │   │       └── README.md
 │   │
-│   └── Introduction-to-Cyber-Security/
-│       ├── Defensive-Security-Intro/
-│       │   └── README.md
-│       └── Offensive-Security-Intro/
-│           └── README.md
+│   ├── Introduction-to-Cyber-Security/
+│   │   ├── Defensive-Security-Intro/
+│   │   │   └── README.md
+│   │   └── Offensive-Security-Intro/
+│   │       └── README.md
+│   │
+│   └── Operating-Systems-Basics/
+│       └── Operating-Systems-Introduction/
+│           ├── README.md
+│           ├── task-2-system-monitor.png
+│           ├── task-3-filesystem.png
+│           ├── task-3-home.png
+│           └── task-3-note-file.png
 │
 ├── SOC-Level-1/
 │   └── ...
@@ -88,6 +98,12 @@ Current writeups cover:
 - Log investigation
 - Incident containment
 - Firewall rules
+- Operating system fundamentals
+- Linux system information gathering
+- Linux filesystem exploration
+- GUI and CLI concepts
+- Kernel Space and User Space
+- User management and permissions
 
 ---
 
