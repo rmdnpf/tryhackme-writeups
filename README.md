@@ -14,6 +14,7 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 | [Defensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) | Alert triage, log investigation, incident containment, firewall rules | [Link](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) |
 | [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Web reconnaissance, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
 | [Operating Systems: Introduction](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) | OS fundamentals, Linux system information, filesystem exploration, GUI/CLI concepts | [Link](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) |
+| [Windows Basics](./Pre-Security/Operating-Systems-Basics/Windows-Basics/) | Windows administration, system monitoring, endpoint security, Windows Firewall | [Link](./Pre-Security/Operating-Systems-Basics/Windows-Basics/) |
 
 ---
 
@@ -27,6 +28,7 @@ Documented walkthroughs from TryHackMe rooms I've completed as I learn cybersecu
 | [Defensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Alert triage, log investigation, incident containment, firewall rules | [Link](./Pre-Security/Introduction-to-Cyber-Security/Defensive-Security-Intro/) |
 | [Offensive Security Intro](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) | Pre Security | Introduction to Cyber Security | Easy | Web reconnaissance, directory enumeration, access control | [Link](./Pre-Security/Introduction-to-Cyber-Security/Offensive-Security-Intro/) |
 | [Operating Systems: Introduction](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) | Pre Security | Operating Systems Basics | Easy | OS fundamentals, Linux system information, filesystem exploration, GUI/CLI concepts | [Link](./Pre-Security/Operating-Systems-Basics/Operating-Systems-Introduction/) |
+| [Windows Basics](./Pre-Security/Operating-Systems-Basics/Windows-Basics/) | Pre Security | Operating Systems Basics | Easy | Windows administration, system monitoring, endpoint security, Windows Firewall | [Link](./Pre-Security/Operating-Systems-Basics/Windows-Basics/) |
 
 ---
 
@@ -54,12 +56,20 @@ tryhackme-writeups/
 │   │       └── README.md
 │   │
 │   └── Operating-Systems-Basics/
-│       └── Operating-Systems-Introduction/
+│       ├── Operating-Systems-Introduction/
+│       │   ├── README.md
+│       │   ├── task-2-system-monitor.png
+│       │   ├── task-3-filesystem.png
+│       │   ├── task-3-home.png
+│       │   └── task-3-note-file.png
+│       │
+│       └── Windows-Basics/
 │           ├── README.md
-│           ├── task-2-system-monitor.png
-│           ├── task-3-filesystem.png
-│           ├── task-3-home.png
-│           └── task-3-note-file.png
+│           ├── task-2-system-information.jpg
+│           ├── task-2-file-explorer.jpg
+│           ├── task-3-task-manager.jpg
+│           ├── task-3-windows-security.jpg
+│           └── task-3-firewall.jpg
 │
 ├── SOC-Level-1/
 │   └── ...
@@ -104,6 +114,14 @@ Current writeups cover:
 - GUI and CLI concepts
 - Kernel Space and User Space
 - User management and permissions
+- Windows desktop navigation
+- Windows system information gathering
+- Windows application management
+- Task Manager
+- Windows Security
+- Microsoft Defender custom scanning
+- Windows Defender Firewall
+- Inbound and outbound firewall rules
 
 ---
 
